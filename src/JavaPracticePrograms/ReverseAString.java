@@ -6,10 +6,10 @@ public class ReverseAString {
         String rev = "";
         System.out.println("Input String is: " +str);
        // using String concatenation Operator
-        int len = str.length();
-        for(int i = len-1; i>=0; i--){
-            rev = rev+str.charAt(i);
-        }
+//        int len = str.length();
+//        for(int i = len-1; i>=0; i--){
+//            rev = rev+str.charAt(i);
+//        }
 
 
       /* // Using Character Array
@@ -21,8 +21,13 @@ public class ReverseAString {
        */
 
        //Using StringBuffer
-       StringBuffer sb = new StringBuffer(str);
-       System.out.println("Reversed String value is: " +(sb.reverse()));
+//       StringBuffer sb = new StringBuffer(str);
+//       System.out.println("Reversed String value is: " +(sb.reverse()));
+
+         StringBuilder sbl = new StringBuilder();
+         sbl.append(str);
+         System.out.println("Reversed String value is: " +sbl.reverse());
+
     }
 
 }
