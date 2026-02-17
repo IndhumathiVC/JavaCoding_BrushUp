@@ -5,7 +5,7 @@ public class TraverseAndReverseLastWordInTheSentence {
         String str = "Hello world , Welcome to Java";
         String words [] = str.split(" ");
         String targetWord = words[words.length-1];
-        String rev = "", traverse = "";
+        String rev = "";
 
         for(int i = targetWord.length()-1; i>=0; i--){
             rev = rev +targetWord.charAt(i);
