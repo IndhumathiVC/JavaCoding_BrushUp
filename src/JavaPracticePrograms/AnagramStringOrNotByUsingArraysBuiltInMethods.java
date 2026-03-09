@@ -2,7 +2,7 @@ package JavaPracticePrograms;
 
 import java.util.*;
 
-public class AnagramStringOrNot {
+public class AnagramStringOrNotByUsingArraysBuiltInMethods {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First String: s1 = ");
